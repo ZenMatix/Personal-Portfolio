@@ -47,28 +47,6 @@ export async function generateMetadata({
   return {
     title,
     description,
-    openGraph: {
-      title,
-      description,
-      type: "article",
-      publishedTime,
-      url: `${DATA.url}/blog/${slug}`,
-      ...(image && {
-        images: [
-          {
-            url: `${DATA.url}${image}`,
-          },
-        ],
-      }),
-    },
-    twitter: {
-      card: "summary_large_image",
-      title,
-      description,
-      ...(image && {
-        images: [`${DATA.url}${image}`],
-      }),
-    },
   };
 }
 
@@ -103,10 +81,7 @@ export default async function Blog({
     datePublished: post.publishedAt,
     dateModified: post.publishedAt,
     description: post.summary,
-    image: post.image
-      ? `${DATA.url}${post.image}`
-      : `${DATA.url}/blog/${slug}/opengraph-image`,
-    url: `${DATA.url}/blog/${slug}`,
+    ...(post.image && { image: post.image }),
     author: {
       "@type": "Person",
       name: DATA.name,

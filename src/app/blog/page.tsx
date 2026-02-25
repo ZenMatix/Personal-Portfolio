@@ -7,16 +7,7 @@ import { ChevronRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Blog",
-  description: "Thoughts on software development  and more.",
-  openGraph: {
-    title: "Blog",
-    description: "Thoughts on software development and more.",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Blog",
-    description: "Thoughts on software development  and more.",
-  },
+  description: "Thoughts on software development and more.",
 };
 
 const PAGE_SIZE = 5;

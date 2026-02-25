@@ -21,20 +21,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(DATA.url),
   title: {
     default: DATA.name,
     template: `%s | ${DATA.name}`,
   },
   description: DATA.description,
-  openGraph: {
-    title: `${DATA.name}`,
-    description: DATA.description,
-    url: DATA.url,
-    siteName: `${DATA.name}`,
-    locale: "en_US",
-    type: "website",
-  },
   robots: {
     index: true,
     follow: true,
@@ -45,10 +36,6 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
-  },
-  twitter: {
-    title: `${DATA.name}`,
-    card: "summary_large_image",
   },
   verification: {
     google: "",

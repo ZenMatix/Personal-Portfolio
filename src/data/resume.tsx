@@ -13,7 +13,7 @@ import { MongoDB } from "@/components/ui/svgs/mongodb";
 export const DATA = {
   name: "GIRIDHAR",
   initials: "G",
-  url: "https://dillion.io",
+  url: "",
   location: "San Francisco, CA",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
@@ -113,7 +113,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "/projects/CRYPT_DEMO.mp4",
+        "https://xyjmxmuuydujzvfewnfw.supabase.co/storage/v1/object/public/Project/CRYPT_DEMO.webm",
     },
     {
       title: "Vdospec AI",
@@ -137,7 +137,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "/projects/Vdospec.mp4",
+      video: "https://xyjmxmuuydujzvfewnfw.supabase.co/storage/v1/object/public/Project/Vdospec.webm",
     },
     {
       title: "PoleStar",
@@ -162,7 +162,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "/projects/polestar.mp4",
+      video: "https://xyjmxmuuydujzvfewnfw.supabase.co/storage/v1/object/public/Project/Polestar.webm",
     },
     {
       title: "Corporate Website",
@@ -186,7 +186,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "/projects/Pinnakl.mp4",
+        "https://xyjmxmuuydujzvfewnfw.supabase.co/storage/v1/object/public/Project/Pinnakl.webm",
     },
   ],
   hackathons: [
