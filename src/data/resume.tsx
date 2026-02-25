@@ -14,8 +14,8 @@ export const DATA = {
   name: "GIRIDHAR",
   initials: "G",
   url: "",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  location: "",
+  locationLink: "",
   description:
     "Software Developer building scalable, secure, and intelligent digital solutions.",
   summary:
@@ -198,7 +198,7 @@ export const DATA = {
         "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
       icon: "public",
       image:
-        "/isro.png",
+        "/ibh.png",
       links: [] as { href: string; title: string; icon?: React.ReactNode }[],
     },
     {
