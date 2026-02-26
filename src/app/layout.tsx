@@ -26,6 +26,10 @@ export const metadata: Metadata = {
     template: `%s | ${DATA.name}`,
   },
   description: DATA.description,
+  icons: {
+    icon: "/Favicon.ico",
+    // optional: apple: "/apple-touch-icon.png",
+  },
   robots: {
     index: true,
     follow: true,
