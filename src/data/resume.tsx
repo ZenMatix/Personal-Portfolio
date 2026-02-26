@@ -111,9 +111,9 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/Projects/Crypt.png",
       video:
-        "https://xyjmxmuuydujzvfewnfw.supabase.co/storage/v1/object/public/Project/CRYPT_DEMO.webm",
+        "",
     },
     {
       title: "Vdospec AI",
@@ -136,8 +136,8 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://xyjmxmuuydujzvfewnfw.supabase.co/storage/v1/object/public/Project/Vdospec.webm",
+      image: "/Projects/Vdospec.png",
+      video: "",
     },
     {
       title: "PoleStar",
@@ -161,8 +161,8 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://xyjmxmuuydujzvfewnfw.supabase.co/storage/v1/object/public/Project/Polestar.webm",
+      image: "/Projects/Polestar.png",
+      video: "",
     },
     {
       title: "Corporate Website",
@@ -184,9 +184,9 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/Projects/Pinnakl.png",
       video:
-        "https://xyjmxmuuydujzvfewnfw.supabase.co/storage/v1/object/public/Project/Pinnakl.webm",
+        "",
     },
   ],
   hackathons: [
